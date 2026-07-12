@@ -1,0 +1,366 @@
+<svg width="2048" height="682" viewBox="0 0 2048 682" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#040711"/>
+    <stop offset="45%" stop-color="#081B3A"/>
+    <stop offset="100%" stop-color="#0A2A6B"/>
+    <animate attributeName="x1" values="0%;100%;0%" dur="22s" repeatCount="indefinite"/>
+    <animate attributeName="y1" values="0%;60%;0%" dur="22s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="45%" stop-color="#FFFFFF"/>
+    <stop offset="60%" stop-color="#8FE3FF"/>
+    <stop offset="100%" stop-color="#1E8CFF"/>
+  </linearGradient>
+  <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="donutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#2FD2FF"/>
+    <stop offset="100%" stop-color="#6C63FF"/>
+  </linearGradient>
+  <radialGradient id="softGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#2FD2FF" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#2FD2FF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowSoft" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="1.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <mask id="titleMask">
+    <rect x="0" y="0" width="2048" height="682" fill="black"/>
+    <text x="120" y="270" font-family="Poppins, Verdana, sans-serif" font-size="128" font-weight="800" fill="white">Saif Rohyal</text>
+  </mask>
+  <pattern id="worldDots" patternUnits="userSpaceOnUse" width="26" height="26">
+    <circle cx="2" cy="2" r="1.1" fill="#2FD2FF" opacity="0.35"/>
+  </pattern>
+</defs>
+
+<!-- ============ BACKGROUND ============ -->
+<rect width="2048" height="682" fill="url(#bg)"/>
+<rect width="2048" height="682" fill="url(#worldDots)" opacity="0.25"/>
+
+<!-- ambient glows -->
+<circle cx="230" cy="120" r="180" fill="url(#softGlow)">
+  <animate attributeName="r" values="150;210;150" dur="13s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1700" cy="560" r="200" fill="url(#softGlow)" opacity="0.7">
+  <animate attributeName="r" values="160;230;160" dur="15s" begin="2s" repeatCount="indefinite"/>
+</circle>
+
+<!-- floating particles -->
+<g fill="#5FD3FF">
+  <circle cx="60" cy="600" r="2"><animate attributeName="cy" values="600;20;600" dur="16s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="16s" repeatCount="indefinite"/></circle>
+  <circle cx="400" cy="640" r="1.6"><animate attributeName="cy" values="640;40;640" dur="19s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="19s" begin="2s" repeatCount="indefinite"/></circle>
+  <circle cx="980" cy="660" r="2"><animate attributeName="cy" values="660;60;660" dur="14s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="14s" begin="1s" repeatCount="indefinite"/></circle>
+  <circle cx="1550" cy="640" r="1.6"><animate attributeName="cy" values="640;30;640" dur="18s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="18s" begin="3s" repeatCount="indefinite"/></circle>
+  <circle cx="1950" cy="600" r="2"><animate attributeName="cy" values="600;10;600" dur="17s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="17s" begin="0.5s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- faint background code / binary drifting -->
+<g font-family="Consolas, monospace" font-size="14" fill="#2FD2FF">
+  <text x="30" y="40" opacity="0"><animate attributeName="opacity" values="0;0.25;0" dur="9s" repeatCount="indefinite"/>import pandas as pd</text>
+  <text x="30" y="480" opacity="0"><animate attributeName="opacity" values="0;0.22;0" dur="10s" begin="3s" repeatCount="indefinite"/>df.groupby('region').sum()</text>
+  <text x="10" y="200" opacity="0"><animate attributeName="opacity" values="0;0.2;0" dur="11s" begin="5s" repeatCount="indefinite"/>01001 11010 00110</text>
+</g>
+
+<!-- ============ TITLE with light sweep ============ -->
+<g mask="url(#titleMask)">
+  <rect x="0" y="140" width="2048" height="150" fill="url(#titleGrad)"/>
+  <rect x="-260" y="140" width="180" height="150" fill="url(#sweepGrad)">
+    <animate attributeName="x" values="-260;2000" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<!-- subtitle with typing animation -->
+<defs>
+  <clipPath id="typeClip">
+    <rect x="0" y="-30" width="0" height="50">
+      <animate attributeName="width" values="0;700;700;0;0" keyTimes="0;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </clipPath>
+</defs>
+<g transform="translate(120,318)">
+  <rect x="0" y="-18" width="5" height="22" fill="#2FD2FF"/>
+  <rect x="9" y="-12" width="5" height="16" fill="#2FD2FF"/>
+  <rect x="18" y="-24" width="5" height="28" fill="#2FD2FF"/>
+  <g transform="translate(35,0)">
+    <g clip-path="url(#typeClip)">
+      <text x="0" y="0" font-family="Poppins, Verdana, sans-serif" font-size="34" fill="#EAF6FF">
+        Data Analyst&#160;&#160;|&#160;&#160;Future Data Scientist
+      </text>
+    </g>
+    <line x1="0" y1="-24" x2="0" y2="6" stroke="#2FD2FF" stroke-width="3">
+      <animate attributeName="x1" values="0;700;700;0;0" keyTimes="0;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;700;700;0;0" keyTimes="0;0.35;0.65;0.85;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1;0" dur="0.9s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</g>
+<line x1="120" y1="360" x2="1040" y2="360" stroke="#2FD2FF" stroke-width="1.5" opacity="0.4" filter="url(#glowSoft)">
+  <animate attributeName="opacity" values="0.2;0.55;0.2" dur="5s" repeatCount="indefinite"/>
+</line>
+
+<!-- ============ TECH ROW BOX ============ -->
+<rect x="90" y="400" width="1090" height="128" rx="20" fill="#0B1E3F" fill-opacity="0.55" stroke="#2FD2FF" stroke-opacity="0.35" stroke-width="1.5"/>
+
+<!-- SQL icon (rotating cylinder) -->
+<g transform="translate(150,464)">
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="14s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="-14" rx="18" ry="8" fill="none" stroke="#2FD2FF" stroke-width="3"/>
+    <path d="M -18 -14 L -18 14 Q -18 22 0 22 Q 18 22 18 14 L 18 -14" fill="none" stroke="#2FD2FF" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="18" ry="8" fill="none" stroke="#2FD2FF" stroke-width="2" opacity="0.5"/>
+  </g>
+</g>
+<text x="190" y="474" font-family="Poppins, Verdana, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">SQL</text>
+<circle cx="292" cy="464" r="2.5" fill="#2FD2FF" opacity="0.5"/>
+
+<!-- Python icon (floats left/right) -->
+<g transform="translate(345,464)">
+  <animateTransform attributeName="transform" type="translate" values="345,464; 355,464; 345,464" dur="5s" repeatCount="indefinite" additive="sum"/>
+  <path d="M -14 -18 Q -14 -24 -4 -24 L 8 -24 Q 12 -24 12 -20 L 12 -10 L -14 -10 Z" fill="#3776AB"/>
+  <path d="M 14 18 Q 14 24 4 24 L -8 24 Q -12 24 -12 20 L -12 10 L 14 10 Z" fill="#FFD43B"/>
+  <circle cx="-6" cy="-17" r="2" fill="#FFD43B"/>
+  <circle cx="6" cy="17" r="2" fill="#3776AB"/>
+</g>
+<text x="378" y="474" font-family="Poppins, Verdana, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Python</text>
+<circle cx="512" cy="464" r="2.5" fill="#2FD2FF" opacity="0.5"/>
+
+<!-- Power BI icon (soft glow pulse) -->
+<g transform="translate(565,464)" filter="url(#glowSoft)">
+  <rect x="-16" y="-4" width="8" height="18" fill="#F2C811">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-4" y="-14" width="8" height="28" fill="#F2C811">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="8" y="-22" width="8" height="36" fill="#F2C811">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<text x="600" y="474" font-family="Poppins, Verdana, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Power BI</text>
+<circle cx="762" cy="464" r="2.5" fill="#2FD2FF" opacity="0.5"/>
+
+<!-- Excel icon (subtle float) -->
+<g transform="translate(815,464)">
+  <animateTransform attributeName="transform" type="translate" values="815,464; 815,454; 815,464" dur="6s" repeatCount="indefinite" additive="sum"/>
+  <rect x="-16" y="-18" width="32" height="36" rx="4" fill="#1E7145"/>
+  <text x="0" y="9" font-family="Poppins, Verdana, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle">X</text>
+</g>
+<text x="848" y="474" font-family="Poppins, Verdana, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Excel</text>
+<circle cx="950" cy="464" r="2.5" fill="#2FD2FF" opacity="0.5"/>
+
+<!-- Machine Learning icon (gentle pulse) -->
+<g transform="translate(1000,464)">
+  <circle r="17" fill="none" stroke="#B39CFF" stroke-width="2.5">
+    <animate attributeName="r" values="15;19;15" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="-6" cy="-4" r="2.4" fill="#B39CFF"/>
+  <circle cx="6" cy="-4" r="2.4" fill="#B39CFF"/>
+  <circle cx="0" cy="6" r="2.4" fill="#B39CFF"/>
+  <line x1="-6" y1="-4" x2="0" y2="6" stroke="#B39CFF" stroke-width="1"/>
+  <line x1="6" y1="-4" x2="0" y2="6" stroke="#B39CFF" stroke-width="1"/>
+</g>
+<text x="1032" y="464" font-family="Poppins, Verdana, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">Machine</text>
+<text x="1032" y="492" font-family="Poppins, Verdana, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">Learning</text>
+
+<!-- ============ TAGLINE ============ -->
+<g transform="translate(150,592)">
+  <circle r="20" fill="none" stroke="#2FD2FF" stroke-width="3"/>
+  <circle r="6" fill="#2FD2FF"/>
+  <line x1="14" y1="-14" x2="26" y2="-26" stroke="#2FD2FF" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="190" y="600" font-family="Poppins, Verdana, sans-serif" font-size="34" fill="#EAF6FF">
+  Turning Data into <tspan fill="#2FD2FF" font-weight="700">Actionable Insights</tspan>
+</text>
+<line x1="120" y1="640" x2="980" y2="640" stroke="#2FD2FF" stroke-width="1.5" opacity="0.35" filter="url(#glowSoft)">
+  <animate attributeName="opacity" values="0.2;0.5;0.2" dur="6s" repeatCount="indefinite"/>
+</line>
+
+<!-- ============ DATA INSIGHTS PANEL ============ -->
+<rect x="1210" y="60" width="360" height="280" rx="16" fill="#0B1E3F" fill-opacity="0.5" stroke="#2FD2FF" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="1234" y="96" font-family="Consolas, monospace" font-size="16" letter-spacing="2" fill="#5FD3FF">DATA INSIGHTS</text>
+
+<!-- small drawing line chart -->
+<polyline points="1234,190 1274,165 1314,178 1354,140 1394,155 1434,120 1470,132"
+          fill="none" stroke="#2FD2FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="320" stroke-dashoffset="320">
+  <animate attributeName="stroke-dashoffset" values="320;0;0;320" keyTimes="0;0.45;0.75;1" dur="7s" repeatCount="indefinite"/>
+</polyline>
+<circle cx="1470" cy="132" r="4" fill="#5FD3FF">
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.5;0.75;1" dur="7s" repeatCount="indefinite"/>
+</circle>
+
+<!-- small bar chart -->
+<g>
+  <rect x="1234" y="260" width="20" height="40" fill="#2FD2FF" opacity="0.85"><animate attributeName="height" values="40;65;40" dur="2.6s" repeatCount="indefinite"/><animate attributeName="y" values="260;235;260" dur="2.6s" repeatCount="indefinite"/></rect>
+  <rect x="1264" y="260" width="20" height="55" fill="#5FD3FF" opacity="0.85"><animate attributeName="height" values="55;30;55" dur="2.2s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="y" values="245;270;245" dur="2.2s" begin="0.3s" repeatCount="indefinite"/></rect>
+  <rect x="1294" y="260" width="20" height="70" fill="#8FE3FF" opacity="0.85"><animate attributeName="height" values="70;45;70" dur="2.9s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="230;255;230" dur="2.9s" begin="0.6s" repeatCount="indefinite"/></rect>
+  <rect x="1324" y="260" width="20" height="35" fill="#2FD2FF" opacity="0.85"><animate attributeName="height" values="35;60;35" dur="2.4s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="265;240;265" dur="2.4s" begin="0.9s" repeatCount="indefinite"/></rect>
+  <rect x="1354" y="260" width="20" height="60" fill="#5FD3FF" opacity="0.85"><animate attributeName="height" values="60;38;60" dur="2.7s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="240;262;240" dur="2.7s" begin="1.2s" repeatCount="indefinite"/></rect>
+  <rect x="1384" y="260" width="20" height="48" fill="#8FE3FF" opacity="0.85"><animate attributeName="height" values="48;72;48" dur="2.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="252;228;252" dur="2.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+  <line x1="1234" y1="315" x2="1470" y2="315" stroke="#2FD2FF" stroke-opacity="0.3"/>
+</g>
+
+<!-- ============ DONUT CHART ============ -->
+<g transform="translate(1660,275)">
+  <g>
+    <animateTransform attributeName="transform" type="scale" values="1;1.035;1" dur="4s" repeatCount="indefinite"/>
+    <circle r="112" fill="none" stroke="#2FD2FF" stroke-width="1.5" opacity="0.25">
+      <animate attributeName="r" values="105;122;105" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.35;0.05;0.35" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="95" fill="none" stroke="#12294F" stroke-width="22"/>
+    <circle r="95" fill="none" stroke="url(#donutGrad)" stroke-width="22" stroke-linecap="round"
+            stroke-dasharray="597" stroke-dashoffset="597" transform="rotate(-90)">
+      <animate attributeName="stroke-dashoffset" values="597;597;84;84;597" keyTimes="0;0.08;0.5;0.8;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-95" r="5" fill="#8FE3FF" filter="url(#glow)">
+        <animate attributeName="r" values="3.5;6;3.5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="0" y="8" font-family="Poppins, Verdana, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF" text-anchor="middle">86%</text>
+    <text x="0" y="34" font-family="Poppins, Verdana, sans-serif" font-size="16" fill="#9FD3F5" text-anchor="middle">Insights</text>
+  </g>
+</g>
+
+<!-- legend -->
+<g font-family="Poppins, Verdana, sans-serif" font-size="17" fill="#EAF6FF">
+  <circle cx="1798" cy="222" r="5" fill="#2FD2FF"/><text x="1812" y="228">Analytics</text>
+  <circle cx="1798" cy="254" r="5" fill="#5FD3FF"/><text x="1812" y="260">Insights</text>
+  <circle cx="1798" cy="286" r="5" fill="#6C63FF"/><text x="1812" y="292">Growth</text>
+  <circle cx="1798" cy="318" r="5" fill="#B39CFF"/><text x="1812" y="324">Performance</text>
+</g>
+
+<!-- ============ NEURAL NETWORK (top right) ============ -->
+<g transform="translate(1900,150)">
+  <g stroke="#2FD2FF" stroke-width="1" opacity="0.55">
+    <line x1="0" y1="0" x2="80" y2="-60"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite"/></line>
+    <line x1="0" y1="0" x2="-70" y2="-40"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.3s" begin="0.4s" repeatCount="indefinite"/></line>
+    <line x1="0" y1="0" x2="60" y2="70"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.6s" begin="0.8s" repeatCount="indefinite"/></line>
+    <line x1="0" y1="0" x2="-55" y2="65"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.8s" begin="1.2s" repeatCount="indefinite"/></line>
+    <line x1="80" y1="-60" x2="130" y2="-10"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.2s" begin="0.2s" repeatCount="indefinite"/></line>
+    <line x1="-70" y1="-40" x2="-30" y2="-90"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.4s" begin="0.6s" repeatCount="indefinite"/></line>
+  </g>
+  <g fill="#2FD2FF">
+    <circle cx="0" cy="0" r="7"><animate attributeName="r" values="6;9;6" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="80" cy="-60" r="5"><animate attributeName="r" values="4;7;4" dur="3.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="-70" cy="-40" r="5"><animate attributeName="r" values="4;7;4" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="70" r="5"><animate attributeName="r" values="4;7;4" dur="3.6s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="-55" cy="65" r="5"><animate attributeName="r" values="4;7;4" dur="4.2s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="-10" r="4"><animate attributeName="r" values="3;6;3" dur="3.9s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="-30" cy="-90" r="4"><animate attributeName="r" values="3;6;3" dur="4.1s" begin="0.7s" repeatCount="indefinite"/></circle>
+  </g>
+</g>
+
+<!-- ============ SCATTER DOT GRID ============ -->
+<g fill="#5FD3FF">
+  <circle cx="1500" cy="420" r="2.5" opacity="0.5"/><circle cx="1520" cy="440" r="2" opacity="0.4"/><circle cx="1540" cy="410" r="3" opacity="0.6"/>
+  <circle cx="1560" cy="450" r="2" opacity="0.4"/><circle cx="1580" cy="425" r="2.5" opacity="0.5"/><circle cx="1600" cy="460" r="2" opacity="0.4"/>
+  <circle cx="1500" cy="470" r="2" opacity="0.4"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="1540" cy="490" r="2.5" opacity="0.5"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="6s" begin="1s" repeatCount="indefinite"/></circle>
+  <circle cx="1580" cy="480" r="2" opacity="0.4"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="5.5s" begin="2s" repeatCount="indefinite"/></circle>
+  <circle cx="1620" cy="500" r="2.5" opacity="0.5"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="6.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- ============ CODE SNIPPET PANEL ============ -->
+<rect x="1290" y="390" width="330" height="180" rx="12" fill="#0B1E3F" fill-opacity="0.55" stroke="#2FD2FF" stroke-opacity="0.3" stroke-width="1.5"/>
+<g font-family="Consolas, monospace" font-size="16">
+  <text x="1312" y="422" fill="#5FD3FF" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="8s" repeatCount="indefinite"/><tspan fill="#6C63FF">SELECT</tspan> insight, action</text>
+  <text x="1312" y="452" fill="#5FD3FF" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="8s" begin="0.4s" repeatCount="indefinite"/><tspan fill="#6C63FF">FROM</tspan> data</text>
+  <text x="1312" y="482" fill="#5FD3FF" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="8s" begin="0.8s" repeatCount="indefinite"/><tspan fill="#6C63FF">WHERE</tspan> knowledge &gt; 0</text>
+  <text x="1312" y="522" fill="#5FD3FF" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="8s" begin="1.2s" repeatCount="indefinite"/><tspan fill="#6C63FF">ORDER BY</tspan> impact DESC;</text>
+</g>
+
+<!-- ============ LARGE BOTTOM-RIGHT CHART ============ -->
+<g transform="translate(1660,0)">
+  <rect x="0" y="440" width="24" height="70" fill="#2FD2FF" opacity="0.9"><animate attributeName="height" values="70;120;70" dur="3s" repeatCount="indefinite"/><animate attributeName="y" values="510;460;510" dur="3s" repeatCount="indefinite"/></rect>
+  <rect x="34" y="440" width="24" height="100" fill="#5FD3FF" opacity="0.9"><animate attributeName="height" values="100;60;100" dur="2.6s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="y" values="480;520;480" dur="2.6s" begin="0.3s" repeatCount="indefinite"/></rect>
+  <rect x="68" y="440" width="24" height="60" fill="#8FE3FF" opacity="0.9"><animate attributeName="height" values="60;140;60" dur="3.3s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="520;440;520" dur="3.3s" begin="0.6s" repeatCount="indefinite"/></rect>
+  <rect x="102" y="440" width="24" height="150" fill="#2FD2FF" opacity="0.9"><animate attributeName="height" values="150;90;150" dur="2.9s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="430;490;430" dur="2.9s" begin="0.9s" repeatCount="indefinite"/></rect>
+  <rect x="136" y="440" width="24" height="110" fill="#5FD3FF" opacity="0.9"><animate attributeName="height" values="110;170;110" dur="3.1s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="470;410;470" dur="3.1s" begin="1.2s" repeatCount="indefinite"/></rect>
+  <rect x="170" y="440" width="24" height="180" fill="#8FE3FF" opacity="0.9"><animate attributeName="height" values="180;130;180" dur="2.7s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="400;450;400" dur="2.7s" begin="1.5s" repeatCount="indefinite"/></rect>
+  <rect x="204" y="440" width="24" height="220" fill="#2FD2FF" opacity="0.9"><animate attributeName="height" values="220;170;220" dur="3.4s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="360;410;360" dur="3.4s" begin="1.8s" repeatCount="indefinite"/></rect>
+  <line x1="-10" y1="580" x2="260" y2="580" stroke="#2FD2FF" stroke-opacity="0.3"/>
+
+  <polyline points="0,470 40,440 80,410 120,380 160,350 210,330"
+            fill="none" stroke="#5FD3FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+            stroke-dasharray="450" stroke-dashoffset="450">
+    <animate attributeName="stroke-dashoffset" values="450;0;0;450" keyTimes="0;0.5;0.8;1" dur="7s" repeatCount="indefinite"/>
+  </polyline>
+  <circle cx="210" cy="330" r="6" fill="#8FE3FF" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.55;0.8;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- ============ WANDERING SNAKE ============ -->
+<defs>
+  <path id="snakePath" fill="none"
+    d="M 140,90 C 300,40 520,140 700,90 S 980,20 1150,140 S 1300,300 1150,380
+       S 820,470 600,430 S 320,520 180,470 S 60,340 180,260
+       S 420,190 560,260 S 780,340 900,260 S 1000,120 850,90
+       S 560,60 400,140 S 200,220 140,90 Z"/>
+  <linearGradient id="snakeSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#7CE8FF"/>
+    <stop offset="100%" stop-color="#0E75B6"/>
+  </linearGradient>
+</defs>
+
+<!-- trailing body segments (rendered first so head overlaps on top) -->
+<circle r="10" fill="#1E8CFF" opacity="0.9"><animateMotion dur="24s" begin="0.85s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></circle>
+<circle r="10.6" fill="#2FD2FF" opacity="0.9"><animateMotion dur="24s" begin="0.72s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></circle>
+<circle r="11.2" fill="#1E8CFF" opacity="0.92"><animateMotion dur="24s" begin="0.6s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></circle>
+<circle r="11.8" fill="#2FD2FF" opacity="0.92"><animateMotion dur="24s" begin="0.48s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></circle>
+<circle r="12.4" fill="#1E8CFF" opacity="0.95"><animateMotion dur="24s" begin="0.36s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></circle>
+<circle r="13" fill="#2FD2FF" opacity="0.95"><animateMotion dur="24s" begin="0.24s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></circle>
+<circle r="13.6" fill="#1E8CFF"><animateMotion dur="24s" begin="0.12s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></circle>
+
+<!-- scale bands along the trailing body -->
+<g stroke="#0A2A6B" stroke-width="1.5" opacity="0.5">
+  <line x1="-3" y1="-9" x2="-3" y2="9"><animateMotion dur="24s" begin="0.5s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></line>
+  <line x1="-3" y1="-11" x2="-3" y2="11"><animateMotion dur="24s" begin="0.3s" repeatCount="indefinite" rotate="auto"><mpath href="#snakePath"/></animateMotion></line>
+</g>
+
+<!-- head with eyes and flicking tongue -->
+<g>
+  <animateMotion dur="24s" begin="0s" repeatCount="indefinite" rotate="auto">
+    <mpath href="#snakePath"/>
+  </animateMotion>
+
+  <!-- tongue -->
+  <g stroke="#FF6B81" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <path d="M 15,0 L 24,0 L 30,-4 M 24,0 L 30,4">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.45;0.55;0.6;1" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- head shape -->
+  <ellipse cx="0" cy="0" rx="17" ry="14" fill="url(#snakeSkin)"/>
+  <ellipse cx="0" cy="0" rx="17" ry="14" fill="none" stroke="#0A2A6B" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- eyes -->
+  <circle cx="7" cy="-6" r="3.2" fill="#FFFFFF"/>
+  <circle cx="7" cy="6" r="3.2" fill="#FFFFFF"/>
+  <circle cx="8.5" cy="-6" r="1.6" fill="#08111F">
+    <animate attributeName="opacity" values="1;1;0.2;1" keyTimes="0;0.9;0.93;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="8.5" cy="6" r="1.6" fill="#08111F">
+    <animate attributeName="opacity" values="1;1;0.2;1" keyTimes="0;0.9;0.93;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- glow -->
+  <ellipse cx="0" cy="0" rx="20" ry="17" fill="none" stroke="#5FD3FF" stroke-width="1" opacity="0.35" filter="url(#glowSoft)"/>
+</g>
+
+</svg>
