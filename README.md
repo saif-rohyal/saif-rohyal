@@ -6,7 +6,6 @@
 
 <!-- ========================= INTRO ========================= -->
 
-<h1 align="center">Hi 👋, I'm Saif Rohyal</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -20,7 +19,7 @@
 
 ---
 
-# 👨‍💻 About Me
+ ### 👨‍💻 About Me
 
 - 📊 Passionate Data Analyst focused on turning raw data into meaningful insights.
 - 🐍 Working with Python, SQL, Excel, and Power BI.
@@ -31,7 +30,7 @@
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ### 💻 Programming & Databases
 
@@ -65,7 +64,7 @@
 
 ---
 
-# 📂 Featured Projects
+## 📂 Featured Projects
 
 - 📊 Sales Dashboard (Power BI)
 - 📈 Retail Sales Analysis (SQL)
@@ -78,7 +77,7 @@
 
 ---
 
-# 🌱 Currently Learning
+## 🌱 Currently Learning
 
 - 📘 Statistics
 - 🤖 Machine Learning
@@ -88,7 +87,7 @@
 
 ---
 
-# 🔥 GitHub Streak
+## 🔥 GitHub Streak
 
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=saif-rohyal&theme=tokyonight&hide_border=true"/>
@@ -96,15 +95,7 @@
 
 ---
 
-# 📈 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=saif-rohyal&theme=tokyo-night&hide_border=true"/>
-</p>
-
----
-
-# 📫 Connect With Me
+## 📫 Connect With Me
 
 <p align="center">
 <a href="https://www.linkedin.com/in/saif-rohyal/">
@@ -126,7 +117,7 @@
 
 ---
 
-# 💡 Quote
+## 💡 Quote
 
 > **-"Information is the oil of the 21st century, and analytics is the combustion engine."** 
 > **—— Peter Sondergaard**
