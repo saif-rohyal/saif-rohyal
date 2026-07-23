@@ -6,7 +6,6 @@
 
 <!-- ========================= INTRO ========================= -->
 
-
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=900&lines=Data+Analyst;Python+Developer;SQL+Developer;Power+BI+Developer;Future+Data+Scientist;Machine+Learning+Enthusiast"/>
@@ -19,7 +18,7 @@
 
 ---
 
- ### 👨‍💻 About Me
+### 👨‍💻 About Me
 
 - 📊 Passionate Data Analyst focused on turning raw data into meaningful insights.
 - 🐍 Working with Python, SQL, Excel, and Power BI.
@@ -66,11 +65,10 @@
 
 ## 📂 Featured Projects
 
-- 📊 Sales Dashboard (Power BI)
-- 📈 Retail Sales Analysis (SQL)
+- 📊 [Sales Data Analysis (SQL)](https://github.com/saif-rohyal/Sales-Data-Analysis-SQL)
+- ❤️ [SQL Ecommerce Customer Churn Analysis](https://github.com/saif-rohyal/SQL-Ecommerce-Customer-Churn-Analysis)
 - 👨‍💼 HR Analytics Dashboard
 - 💰 Financial Performance Dashboard
-- ❤️ Customer Churn Analysis
 - 🐍 Python Data Analysis
 - 📊 Excel Dashboard
 - 🗄 SQL Business Case Studies
@@ -91,6 +89,16 @@
 
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=saif-rohyal&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## ☕ Buy Me a Coffee
+
+<p align="center">
+<a href="https://buymeacoffee.com/saifrohyal">
+<img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000"/>
+</a>
 </p>
 
 ---
@@ -119,7 +127,7 @@
 
 ## 💡 Quote
 
-> **-"Information is the oil of the 21st century, and analytics is the combustion engine."** 
+> **-"Information is the oil of the 21st century, and analytics is the combustion engine."**
 > **—— Peter Sondergaard**
 
 ---
