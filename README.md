@@ -50,75 +50,93 @@
 
 ## 📂 Featured Projects
 
-- 📊 [Sales Data Analysis (SQL)](https://github.com/saif-rohyal/Sales-Data-Analysis-SQL)
-- ❤️ [SQL Ecommerce Customer Churn Analysis](https://github.com/saif-rohyal/SQL-Ecommerce-Customer-Churn-Analysis)
-- 👨‍💼 HR Analytics Dashboard
-- 💰 Financial Performance Dashboard
-- 🐍 Python Data Analysis
-- 📊 Excel Dashboard
-- 🗄 SQL Business Case Studies
+| 🚀 Project | 📝 Description |
+|------------|----------------|
+| 📊 [Sales Data Analysis (SQL)](https://github.com/saif-rohyal/Sales-Data-Analysis-SQL) | SQL-based sales analysis and KPI reporting |
+| ❤️ [SQL Ecommerce Customer Churn Analysis](https://github.com/saif-rohyal/SQL-Ecommerce-Customer-Churn-Analysis) | Customer churn analysis using SQL |
+| 🤖 AI Agent Projects | Intelligent AI agents powered by LLMs |
+| ⚡ Python Automation | Workflow automation and productivity tools |
+| 🔗 LangChain & LangGraph | AI workflows and agent orchestration |
+| 👥 CrewAI Projects | Multi-agent collaboration systems |
+| 🔌 MCP Projects | Model Context Protocol integrations |
+| 🚀 FastAPI APIs | Production-ready backend APIs |
+| 🦙 Open Source LLMs | Applications using local and open-source models |
+| 📦 RAG Applications | Retrieval-Augmented Generation systems |
 
 ---
 
-## 🌱 Currently Learning
-
-- 📘 Statistics
-- 🤖 Machine Learning
-- 🧠 Deep Learning
-- 📚 Scikit-Learn
-- 🔥 TensorFlow
-
 ---
 
-## 🔥 GitHub Streak
+# 📊 GitHub Analytics
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=saif-rohyal&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=saif-rohyal&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <i>Consistency is the foundation of mastery. Every commit represents progress, experimentation, and continuous learning.</i>
 </p>
 
 ---
 
-## ☕ Buy Me a Coffee
+# 🌐 Let's Connect
 
 <p align="center">
-<a href="https://buymeacoffee.com/saifrohyal">
-<img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000"/>
-</a>
-</p>
 
----
-
-## 📫 Connect With Me
-
-<p align="center">
-<a href="https://www.linkedin.com/in/saif-rohyal/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.kaggle.com/saifrohyal">
-<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
-</a>
-&nbsp;
 <a href="https://github.com/saif-rohyal">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-&nbsp;
-<a href="mailto:saifullahjan5417st@gmail.com">
+
+<a href="https://www.linkedin.com/in/saif-rohyal">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:saif.rohyal@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
+
+<a href="https://www.kaggle.com/saifrohyal">
+<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+</a>
+
 </p>
-
----
-
-## 💡 Quote
-
-> **-"Information is the oil of the 21st century, and analytics is the combustion engine."**
-> **—— Peter Sondergaard**
-
----
 
 <p align="center">
 
-⭐ **Thanks for visiting my profile!** ⭐
+📧 **Email:** **saif.rohyal@gmail.com** &nbsp;&nbsp;|&nbsp;&nbsp;
+💼 **LinkedIn:** **linkedin.com/in/saif-rohyal**
 
 </p>
+
+---
+
+# 💭 Developer Philosophy
+
+```python
+while True:
+
+    Learn()
+
+    Build()
+
+    Improve()
+
+    Share()
+
+    Repeat()
+```
+
+> **"The best way to predict the future is to build it."**  
+> — Alan Kay
+
+---
+
+<div align="center">
+
+### 🚀 Thanks for Visiting!
+
+*"Building intelligent AI systems, one project at a time."*
+
+⭐ **If you like my work, consider following my journey and exploring my repositories.**
+
+</div>
