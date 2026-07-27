@@ -1,14 +1,14 @@
 <!-- ========================= BANNER ========================= -->
 
 <p align="center">
-  <img src="./banner.svg" alt="Saif Rohyal Banner" width="100%">
+  <img src="./bannner.svg" alt="Saif Rohyal Banner" width="100%">
 </p>
 
 <!-- ========================= INTRO ========================= -->
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=900&lines=Data+Analyst;Python+Developer;SQL+Developer;Power+BI+Developer;Future+Data+Scientist;Machine+Learning+Enthusiast"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=900&lines=Agentic+AI+Engineer;Python+Developer;AI+Automation+Engineerr;Building+Intelligent+AI+Systems"/>
   </a>
 </p>
 
@@ -18,50 +18,35 @@
 
 ---
 
-### 👨‍💻 About Me
+## 👨‍💻 About Me
 
-- 📊 Passionate Data Analyst focused on turning raw data into meaningful insights.
-- 🐍 Working with Python, SQL, Excel, and Power BI.
-- 📈 Interested in Business Intelligence, Data Analytics, and Machine Learning.
-- 🌱 Currently learning Statistics, Machine Learning, and Deep Learning.
-- 💼 Building real-world portfolio projects.
-- 🎯 Goal: Become a Professional Data Scientist.
-
+- 🤖 Building intelligent AI agents, automation workflows, and production-ready applications.
+- 🐍 Python Developer with a passion for clean architecture and scalable software.
+- ⚡ Experienced in developing AI-powered solutions using modern frameworks and tools.
+- 💡 Passionate about open-source technologies, automation, and solving real-world problems with AI.
+- 📚 Dedicated to continuous learning through hands-on projects and practical experimentation.
+- 🎯 Mission: To become a world-class Agentic AI Engineer creating innovative and impactful AI systems.
 ---
 
-## 🛠️ Tech Stack
-
-### 💻 Programming & Databases
+### 🛠️ Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,r,mysql,postgres,sqlite,mongodb"/>
-</p>
-
-### 📊 Data Analytics & Machine Learning
-
-<p align="center">
-
+<img src="https://skillicons.dev/icons?i=python,fastapi,flask,mysql,postgres,mongodb,sqlite,docker,git,github,vscode,linux"/>
+<br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="50"/>
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="50"/>
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="50"/>
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="50"/>
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="50"/>
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="50"/>
-
+<br>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangGraph-0F172A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CrewAI-FF6B35?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MCP-6C63FF?style=for-the-badge"/>
 </p>
 
-### ⚙️ Development Tools
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,pycharm,linux,docker"/>
-</p>
-
----
 
 ## 📂 Featured Projects
 
