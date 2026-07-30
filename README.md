@@ -16,9 +16,8 @@
   <img src="https://komarev.com/ghpvc/?username=saif-rohyal&label=Profile%20Views&color=0e75b6&style=flat"/>
 </p>
 
----
-
-## 👨‍💻 About Me
+--- 
+##👨‍💻 About Me
 
 - 🤖 Building intelligent AI agents, automation workflows, and production-ready applications.
 - 🐍 Python Developer with a passion for clean architecture and scalable software.
@@ -26,19 +25,22 @@
 - 💡 Passionate about open-source technologies, automation, and solving real-world problems with AI.
 - 📚 Dedicated to continuous learning through hands-on projects and practical experimentation.
 - 🎯 Mission: To become a world-class Agentic AI Engineer creating innovative and impactful AI systems.
----
 
+---
 ### 🛠️ Tech Stack
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python,fastapi,flask,mysql,postgres,mongodb,sqlite,docker,git,github,vscode,linux"/>
 <br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="50"/>
+  <br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="50"/>
+  <br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="50"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="50"/>
+  <br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="50"/><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="50"/><br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="50"/><br>
 <br>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
@@ -65,16 +67,10 @@
 
 ---
 
----
-
 # 📊 GitHub Analytics
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=saif-rohyal&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <i>Consistency is the foundation of mastery. Every commit represents progress, experimentation, and continuous learning.</i>
 </p>
 
 ---
