@@ -17,7 +17,8 @@
 </p>
 
 --- 
-##👨‍💻 About Me
+
+### 👨‍💻 About Me
 
 - 🤖 Building intelligent AI agents, automation workflows, and production-ready applications.
 - 🐍 Python Developer with a passion for clean architecture and scalable software.
