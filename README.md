@@ -31,7 +31,7 @@
 
 I build AI agents, LLM applications, and automation systems that connect intelligent models with tools, APIs, databases, and real-world workflows.
 
-My main focus is **Agentic AI** — building systems that can understand a goal, reason about tasks, use tools, take actions, maintain context, and complete multi-step workflows.
+My main focus is **Agentic AI**  building systems that can understand a goal, reason about tasks, use tools, take actions, maintain context, and complete multi-step workflows.
 
 I work mainly with **Python, FastAPI, LangChain, LangGraph, MCP, n8n, SQL, PostgreSQL, Redis, Docker, and modern LLM platforms**.
 
