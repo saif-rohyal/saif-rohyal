@@ -1,7 +1,5 @@
-<!-- ========================= BANNER ========================= -->
-
 <p align="center">
-  <img src="banner.svg" alt="Saif Rohyal Banner" width="100%">
+  <img src="header.svg" alt="Saif Rohyal Banner" width="100%">
 </p>
 
 <p align="center">
@@ -11,7 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=saif-rohyal&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+ <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=saif-rohyal&label=PROFILE%20VIEWS&color=2E7CF6&style=for-the-badge&labelColor=FFFFFF" />
+</p>
 </p>
 
 <p align="center">
@@ -24,6 +24,7 @@
 </p>
 
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 # 👨‍💻 About Me
 
@@ -37,12 +38,14 @@ I work mainly with **Python, FastAPI, LangChain, LangGraph, MCP, n8n, SQL, Postg
 
 I enjoy taking an idea, understanding the problem behind it, and turning it into something useful and practical.
 
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 # 🧠 AI Engineering Stack
 
 <div align="center">
-
+  
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
+  
 ### AGENTIC AI
 
 <img src="https://img.shields.io/badge/LangGraph-0F172A?style=for-the-badge&logoColor=white">
@@ -50,6 +53,12 @@ I enjoy taking an idea, understanding the problem behind it, and turning it into
 <img src="https://img.shields.io/badge/MCP-6C63FF?style=for-the-badge">
 <img src="https://img.shields.io/badge/Multi--Agent-111827?style=for-the-badge">
 <img src="https://img.shields.io/badge/Tool_Calling-111827?style=for-the-badge">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
+
+
+
+
 
 ### LLM ENGINEERING
 
@@ -59,6 +68,8 @@ I enjoy taking an idea, understanding the problem behind it, and turning it into
 <img src="https://img.shields.io/badge/Memory-111827?style=for-the-badge">
 <img src="https://img.shields.io/badge/AI_Evaluation-111827?style=for-the-badge">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
+
 ### BACKEND & AUTOMATION
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -66,6 +77,8 @@ I enjoy taking an idea, understanding the problem behind it, and turning it into
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white">
 <img src="https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge">
 <img src="https://img.shields.io/badge/Webhooks-2563EB?style=for-the-badge">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 ### DATA & INFRASTRUCTURE
 
@@ -79,6 +92,7 @@ I enjoy taking an idea, understanding the problem behind it, and turning it into
 </div>
 
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 # 🚀 Featured AI Systems
 
@@ -87,7 +101,8 @@ I enjoy taking an idea, understanding the problem behind it, and turning it into
 <table>
 <tr>
 <td width="50%">
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
+  
 ### 🤖 Multi-Tier AI Support
 
 AI customer-support system with intelligent routing, RAG, memory, escalation, and human handoff.
@@ -98,7 +113,8 @@ AI customer-support system with intelligent routing, RAG, memory, escalation, an
 </td>
 
 <td width="50%">
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
+  
 ### 🎯 Autonomous Job & Lead Agent
 
 Discovers opportunities, matches criteria, generates personalized outreach, and sends candidates for human review.
@@ -111,6 +127,8 @@ Discovers opportunities, matches criteria, generates personalized outreach, and 
 
 <tr>
 <td width="50%">
+  
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 ### 💰 Price & Inventory Agent
 
@@ -122,6 +140,8 @@ Monitors competitor prices and inventory, generates pricing recommendations, and
 </td>
 
 <td width="50%">
+  
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 ### 📞 Voice Booking Assistant
 
@@ -135,6 +155,8 @@ Conversational voice agent that handles calls, checks availability, and books ap
 
 <tr>
 <td width="50%">
+  
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 ### 🧑‍💻 Autonomous Coding Agent
 
@@ -146,6 +168,8 @@ SWE-style agent that analyzes issues, modifies code, runs tests, self-corrects, 
 </td>
 
 <td width="50%">
+  
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 ### 🔌 MCP Tool Server
 
@@ -161,6 +185,7 @@ Custom MCP infrastructure that exposes APIs, databases, and structured actions t
 </div>
 
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 # 🎯 Engineering Focus
 
@@ -175,6 +200,7 @@ Custom MCP infrastructure that exposes APIs, databases, and structured actions t
 
 </div>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 # 📊 GitHub Analytics
 
@@ -185,6 +211,7 @@ alt="GitHub Streak"
 </p>
 
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 # 🌐 Let's Connect
 
@@ -216,6 +243,8 @@ alt="GitHub Streak"
 
 
 <div align="center">
+  
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
 
 ### 🧠 Turning intelligence into software that actually works.
 
@@ -223,7 +252,8 @@ alt="GitHub Streak"
 
 <br>
 
-✨ **Thank you for visiting!**  
-*Feel free to explore my work and connect with me.*
+
+  <img src="footer.svg" alt="Saif Rohyal Banner" width="100%" hight ="120%">
 
 </div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
