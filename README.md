@@ -18,9 +18,6 @@
 <a href="https://github.com/saif-rohyal?tab=followers">
 <img src="https://img.shields.io/github/followers/saif-rohyal?label=Followers&style=flat&color=0e75b6" alt="GitHub Followers"/>
 </a>
-<a href="https://github.com/saif-rohyal?tab=repositories">
-<img src="https://img.shields.io/github/stars/saif-rohyal?affiliations=OWNER&style=flat&color=0e75b6" alt="GitHub Stars"/>
-</a>
 </p>
 
 
