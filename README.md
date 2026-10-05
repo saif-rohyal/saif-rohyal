@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg" alt="Saif Rohyal Banner" width="100%">
+  <img src="github-header.svg" alt="Saif Rohyal Banner" width="100%">
 </p>
 
 <p align="center">
@@ -250,7 +250,7 @@ alt="GitHub Streak"
 <br>
 
 
-  <img src="footer.svg" alt="Saif Rohyal Banner" width="100%" hight ="120%">
+  <img src="github-footer.svg" alt="Saif Rohyal Banner" width="100%" hight ="120%">
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=2E7CF6&height=3&width=100%" width="100%" />
